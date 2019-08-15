@@ -34,11 +34,19 @@
         </javaClientGenerator>
 
         <!--    生成对应表及表名    -->
-        <table schema="miaosha" tableName="user_info" domainObjectName="UserDO" enableCountByExample="false"
-        enableUpdateByExample="false" enableDeleteByExample="false"
-        enableSelectByExample="false" selectByExampleQueryId="false">
+<!--        <table schema="miaosha" tableName="user_info" domainObjectName="UserDO" enableCountByExample="false"-->
+<!--        enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--        enableSelectByExample="false" selectByExampleQueryId="false">-->
+<!--        </table>-->
+<!--        <table schema="miaosha" tableName="user_password" domainObjectName="UserPasswordDO" enableCountByExample="false"-->
+<!--               enableUpdateByExample="false" enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false" selectByExampleQueryId="false">-->
+<!--        </table>-->
+        <table schema="miaosha" tableName="item" domainObjectName="ItemDO" enableCountByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
         </table>
-        <table schema="miaosha" tableName="user_password" domainObjectName="UserPasswordDO" enableCountByExample="false"
+        <table schema="miaosha" tableName="item_stock" domainObjectName="ItemStockDO" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
         </table>
