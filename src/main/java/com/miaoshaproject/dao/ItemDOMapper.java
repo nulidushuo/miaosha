@@ -1,6 +1,7 @@
 package com.miaoshaproject.dao;
 
 import com.miaoshaproject.dataobject.ItemDO;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -56,4 +57,6 @@ public interface ItemDOMapper {
      * @mbg.generated Thu Aug 15 17:35:05 CST 2019
      */
     int updateByPrimaryKey(ItemDO record);
+
+    int increaseSales(@Param("id")Integer id, @Param("amount")Integer amount);
 }
